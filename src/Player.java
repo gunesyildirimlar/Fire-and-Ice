@@ -5,7 +5,6 @@ public class Player {
 	private Coordinates playerCoordinates;
 	private int score;
 	private int packedicecount;
-	//health double olmazsa can 10 10 azalıyor??
 	Player(int x,int y){
 		health=1000;
 		direction=new Coordinates(1,0);
